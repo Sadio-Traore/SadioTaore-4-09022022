@@ -272,6 +272,13 @@ a:hover {
     margin-top: 80px;
 }
 
+.row.voffset-lg.voffset{display:flex;
+    flex-direction:column;
+    text-align:center;}
+
+.row.voffset-lg.voffset h3{text-transform:none;font-style:italic}
+            
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
