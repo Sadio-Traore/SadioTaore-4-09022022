@@ -290,6 +290,14 @@ a:hover {
     padding-left: 0;
 }
 
+.row h2{width:100%;
+
+    margin:auto;}
+
+        
+ .row.row-no-gutters{display:flex;
+justify-content:space-around;}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -857,6 +865,14 @@ h4 {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
+    }
+    .col-sm-6{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    
+    img.img-responsive.portfolio-thumb{width:25em;
     }
 }
 
