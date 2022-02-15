@@ -939,6 +939,15 @@ h4 {
         margin-left: 0;
         margin-right: 0;
     }
+
+    .navbar.row.2{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        width:auto;
+    }
+
     .site-navigation {
         position: inherit;
         transform: none;
