@@ -897,6 +897,7 @@ h4 {
 }
 
 @media (max-width: 991px) {
+    .img-responsive{width:100%}
     .container {
         width: 100%;
     }
