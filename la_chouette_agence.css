@@ -932,6 +932,8 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    body{padding:1em;}
+    h2.col-sm-12.text-center{width:90%}
     .img-responsive{width:15em;margin:auto;}
     .page-container {
         overflow-x: hidden;
